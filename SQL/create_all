@@ -1,0 +1,12 @@
+create table ACCOUNT(
+  id_account INT AUTO_INCREMENT not null,
+  username VARCHAR(50) not null,
+  email varchar(50) not null,
+  password_hash varchar(65) not null,
+  salt varchar(50) not null,
+  date_created date not null
+);
+
+ALTER TABLE ACCOUNT ADD CONSTRAINT ID_ACCOUNT_PK PRIMARY KEY(ID_ACCOUNT);
+ALTER TABLE ACCOUNT ADD CONSTRAINT ACCOUNT_UNIQ_USERNAME UNIQUE(USERNAME);
+ALTER TABLE ACCOUNT ADD CONSTRAINT ACCOUNT_UNIQ_EMAIL UNIQUE(EMAIL);
