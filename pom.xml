@@ -94,11 +94,12 @@
             <scope>test</scope>
         </dependency>
 
-        <dependency>
+<!--        hibernate-jpa-2.0 doesn't integrate well with some hibernate versions-->
+<!--        <dependency>
             <groupId>org.hibernate.javax.persistence</groupId>
             <artifactId>hibernate-jpa-2.0-api</artifactId>
             <version>1.0.1.Final</version>
-        </dependency>
+        </dependency>-->
 
         <dependency>
             <groupId>org.hibernate</groupId>

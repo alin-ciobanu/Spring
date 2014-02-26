@@ -2,8 +2,10 @@ package ro.bets.repository;
 
 import org.junit.Assert;
 import org.junit.Before;
+import org.junit.FixMethodOrder;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.junit.runners.MethodSorters;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
@@ -11,7 +13,6 @@ import ro.bets.config.InfrastructureConfig;
 import ro.bets.config.WebMvcConfig;
 import ro.bets.domain.Account;
 
-import javax.inject.Inject;
 import java.util.Date;
 
 /**
@@ -19,6 +20,7 @@ import java.util.Date;
  */
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(classes = {InfrastructureConfig.class})
+@FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class AccountRepositoryTest {
 
     @Autowired
@@ -43,6 +45,14 @@ public class AccountRepositoryTest {
 
         Account testAccount = accountRepository.save(account);
         Assert.assertNotNull(testAccount.getId());
+
+    }
+
+    @Test
+    public void testDeleteAccount() throws Exception {
+
+        accountRepository.deleteAll();
+        Assert.assertEquals(accountRepository.findAll().size(), 0);
 
     }
 
