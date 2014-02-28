@@ -24,6 +24,19 @@ public class AccountService implements AccountServiceInterface {
         return accountRepository.save(account);
     }
 
+    @Transactional
+    public Account updateAccount(Account account) {
+        Account accountDetached = null;
+        if (account.getId() != null) {
+            if (accountRepository.findOne(account.getId()) != null)
+                accountDetached = accountRepository.save(account);
+        }
+        else {
+            accountDetached = null;
+        }
+        return accountDetached;
+    }
+
     @Override
     public Account findById(Long idAccount) {
         return accountRepository.findOne(idAccount);

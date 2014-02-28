@@ -1,33 +1,40 @@
 package ro.bets.service;
 
-import junit.framework.TestCase;
-import org.junit.*;
-import org.junit.runner.RunWith;
-import org.junit.runners.MethodSorters;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
-import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+import org.springframework.test.context.testng.AbstractTestNGSpringContextTests;
+import org.springframework.test.context.transaction.TransactionConfiguration;
+import org.testng.Assert;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Test;
 import ro.bets.config.InfrastructureConfig;
 import ro.bets.domain.Account;
 
 import java.util.Date;
-import java.util.List;
 
 /**
  * Created by yozmo on 2/25/14.
  */
-@RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(classes = {InfrastructureConfig.class})
-@FixMethodOrder(MethodSorters.NAME_ASCENDING)
-public class AccountServiceTest extends TestCase {
+@TransactionConfiguration(defaultRollback=false)
+public class AccountServiceTest extends AbstractTestNGSpringContextTests {
 
     @Autowired
     private AccountServiceInterface accountService;
 
     private Account account;
-    Long id;
+    private Long id;
+    private int noOfEntriesInDB;
 
-    @Before
+    @Override
+    @BeforeSuite
+    protected void springTestContextPrepareTestInstance() throws Exception {
+        super.springTestContextPrepareTestInstance();
+    }
+
+    @BeforeClass
     public void setUp() throws Exception {
         account = new Account();
         account.setDateCreated(new Date());
@@ -37,53 +44,56 @@ public class AccountServiceTest extends TestCase {
         account.setUsername("yozmo");
     }
 
-    @After
+    @AfterClass
     public void tearDown() throws Exception {
         account = null;
     }
 
-    @Test
-    public void a_testCreateAccount() throws Exception {
+    @Test(priority = 1)
+    public void testCreateAccount() throws Exception {
+
+        noOfEntriesInDB = accountService.findAll().size();
 
         Account testAccount = accountService.createAccount(account);
-        Assert.assertNotNull(testAccount);
+        Assert.assertNotNull(testAccount.getId());
+        id = testAccount.getId();
+        account.setId(id); // used for next test
+
     }
 
-    @Test
-    public void ab_testUpdateAccount() throws Exception {
+    @Test(priority = 2)
+    public void testUpdateAccount() throws Exception {
 
         account.setSalt("rand_str");
-        Account accountDB = accountService.createAccount(account); // update
+        Account accountDB = accountService.updateAccount(account); // update
 
-        Assert.assertTrue(accountService.findAll().size() == 1);
+        Assert.assertTrue(accountService.findAll().size() == noOfEntriesInDB + 1);
         Assert.assertEquals(accountDB.getSalt(), "rand_str");
 
     }
 
-    @Test
-    public void b_testFindById() throws Exception {
+    @Test(priority = 3)
+    public void testFindById() throws Exception {
 
-        Account ac1 = accountService.createAccount(account);
-
-        Account dbAccount = accountService.findById(ac1.getId());
-        Assert.assertTrue(account.equals(dbAccount));
-
-    }
-
-    @Test
-    public void c_testFindAll() throws Exception {
-
-        Assert.assertEquals(accountService.findAll().size(), 1);
+        Account dbAccount = accountService.findById(id);
+        Assert.assertEquals(account.getId(), dbAccount.getId());
+//        Assert.assertTrue(account.equals(dbAccount));
 
     }
 
-    @Test
-    public void d_testDeleteAccount() throws Exception {
-        List<Account> accts = accountService.findAll();
-        for (Account acct: accts) {
-            accountService.deleteAccount(acct.getId());
-        }
-        Assert.assertEquals(accountService.findAll().size(), 0);
+    @Test(priority = 4)
+    public void testFindAll() throws Exception {
+
+        Assert.assertEquals(accountService.findAll().size(), noOfEntriesInDB + 1);
+
+    }
+
+    @Test(priority = 5)
+    public void testDeleteAccount() throws Exception {
+
+        accountService.deleteAccount(id);
+        Assert.assertEquals(accountService.findAll().size(), noOfEntriesInDB);
+
     }
 
 }
