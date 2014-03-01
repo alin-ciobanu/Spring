@@ -18,9 +18,9 @@ public class AccountController {
     @Autowired
     private AccountServiceInterface accountService;
 
-    @RequestMapping(value = "/{id}", method = RequestMethod.GET)
+    @RequestMapping(value = "/get", method = RequestMethod.GET)
     @ResponseBody
-    public Account getAccount (@PathVariable("id") Long id) {
+    public Account getAccount (@RequestParam("id") Long id) {
         return accountService.findById(id);
     }
 

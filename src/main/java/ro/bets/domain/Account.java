@@ -1,5 +1,10 @@
 package ro.bets.domain;
 
+import org.codehaus.jackson.map.annotate.JsonDeserialize;
+import org.codehaus.jackson.map.annotate.JsonSerialize;
+import ro.bets.config.JsonDateDeserializer;
+import ro.bets.config.JsonDateSerializer;
+
 import javax.persistence.*;
 import java.util.Date;
 
@@ -70,10 +75,12 @@ public class Account {
         this.salt = salt;
     }
 
+    @JsonSerialize(using = JsonDateSerializer.class)
     public Date getDateCreated() {
         return dateCreated;
     }
 
+    @JsonDeserialize(using = JsonDateDeserializer.class)
     public void setDateCreated(Date dateCreated) {
         this.dateCreated = dateCreated;
     }

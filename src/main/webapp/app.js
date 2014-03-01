@@ -3,4 +3,7 @@
  */
 'use strict'
 
-var betsApp = angular.module('betsApp', []);
+var betsApp = angular.module('betsApp', ['ngResource']);
+
+var restProvider = 'http://localhost:8080';
+var accountSaltLength = 10;
