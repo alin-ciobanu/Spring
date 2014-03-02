@@ -11,7 +11,7 @@ betsApp.controller('SignUpCtrl', ['$scope', 'AccountService', function($scope, a
         'email': ''
     };
 
-    $scope.createNewUser = function (user) {
+    $scope.createNewUser = function () {
 
         var userAccount = {};
 
@@ -20,11 +20,7 @@ betsApp.controller('SignUpCtrl', ['$scope', 'AccountService', function($scope, a
         userAccount.salt = $scope.getRandomString(accountSaltLength);
         var hash = CryptoJS.SHA256($scope.user.password + userAccount.salt);
         userAccount.passwordHash = hash.toString(CryptoJS.enc.Base64);
-//        var today = new Date();
-//        userAccount.dateCreated = today.format("MM-dd-yyyy");
-        userAccount.dateCreated = "01-12-2013";
-
-        console.log(userAccount.dateCreated);
+        userAccount.dateCreated = ""; // doesn't matter - server will change it to current date
 
         accountService.create(userAccount);
 

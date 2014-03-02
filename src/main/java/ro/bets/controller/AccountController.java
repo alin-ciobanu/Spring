@@ -18,33 +18,34 @@ public class AccountController {
     @Autowired
     private AccountServiceInterface accountService;
 
-    @RequestMapping(value = "/get", method = RequestMethod.GET)
+    @RequestMapping(value = "/get", method = RequestMethod.GET, produces = "application/json")
     @ResponseBody
     public Account getAccount (@RequestParam("id") Long id) {
         return accountService.findById(id);
     }
 
-    @RequestMapping(value = "/all", method = RequestMethod.GET)
+    @RequestMapping(value = "/all", method = RequestMethod.GET, produces = "application/json")
     @ResponseBody
     public List<Account> getAllAccounts() {
         return accountService.findAll();
     }
 
-    @RequestMapping(value = "/new", method = RequestMethod.POST)
+    @RequestMapping(value = "/new", method = RequestMethod.POST,
+            consumes = "application/json", produces = "application/json")
     @ResponseBody
     public Account createAccount (@RequestBody Account account) {
         return accountService.createAccount(account);
     }
 
-    @RequestMapping(value = "/update", method = RequestMethod.PUT)
+    @RequestMapping(value = "/update", method = RequestMethod.PUT, consumes = "application/json")
     @ResponseBody
     public Account updateAccount (@RequestBody Account account) {
         return accountService.updateAccount(account);
     }
 
-    @RequestMapping(value = "/{id}", method = RequestMethod.DELETE)
-    @ResponseBody
-    public void deleteAccount (@PathVariable("id") Long id) {
+    @RequestMapping(value = "/delete", method = RequestMethod.DELETE)
+//    @ResponseBody
+    public void deleteAccount (@RequestParam("id") Long id) {
         accountService.deleteAccount(id);
     }
 
