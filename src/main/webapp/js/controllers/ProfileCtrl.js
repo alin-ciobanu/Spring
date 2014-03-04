@@ -2,14 +2,11 @@
  * Created by yozmo on 3/2/14.
  */
 
-betsApp.controller('ProfileCtrl', ['$scope', 'AccountService', function($scope, accountService) {
+betsApp.controller('ProfileCtrl', ['$scope', 'AccountService', '$routeParams',
+    function($scope, accountService, $routeParams) {
 
-    $scope.userAccount = {};
+    $scope.userAccount = accountService.get({'id': $routeParams.id});
 
-    $scope.showProfile = function (id) {
-
-        $scope.userAccount = accountService.get({'id': id});
-
-    }
+    alert("here");
 
 }]);
