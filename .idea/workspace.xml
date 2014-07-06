@@ -2,53 +2,51 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1076552f-d27b-4a34-84d7-de7927c84677" name="Default" comment="config files">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ro/bets/config/InfrastructureConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_dbcp_commons_dbcp_1_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_pool_commons_pool_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jstl_jstl_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_servlet_api_6_0_39.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_7_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_4_0_4_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_4_3_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_4_3_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_0_3_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_0_api_1_0_1_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_18_1_GA.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_1_1_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_1_1_GA.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_annotations_1_2_0_Beta1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_0_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_6_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_1_4_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_3_2_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_0_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_0_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_0_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_0_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_0_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_0_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_4_0_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_0_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_0_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_0_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_0_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ro/bets/config/WebMvcConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bets.iml" afterPath="$PROJECT_DIR$/Bets.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Bets_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Bets_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="DELETED" beforePath="C:\Users\yozmo\Documents\GitHub\Bets\.idea\artifacts\Bets_war_exploded.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\yozmo\Documents\GitHub\Bets\.idea\libraries\Maven__antlr_antlr_2_7_7.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\yozmo\Documents\GitHub\Bets\.idea\libraries\Maven__aopalliance_aopalliance_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\yozmo\Documents\GitHub\Bets\.idea\libraries\Maven__com_fasterxml_classmate_1_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\yozmo\Documents\GitHub\Bets\.idea\libraries\Maven__commons_dbcp_commons_dbcp_1_2_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\yozmo\Documents\GitHub\Bets\.idea\libraries\Maven__commons_pool_commons_pool_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\yozmo\Documents\GitHub\Bets\.idea\libraries\Maven__dom4j_dom4j_1_6_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\yozmo\Documents\GitHub\Bets\.idea\libraries\Maven__javax_validation_validation_api_1_1_0_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\yozmo\Documents\GitHub\Bets\.idea\libraries\Maven__jstl_jstl_1_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\yozmo\Documents\GitHub\Bets\.idea\libraries\Maven__junit_junit_4_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\yozmo\Documents\GitHub\Bets\.idea\libraries\Maven__mysql_mysql_connector_java_5_1_29.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\yozmo\Documents\GitHub\Bets\.idea\libraries\Maven__org_apache_tomcat_servlet_api_6_0_39.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\yozmo\Documents\GitHub\Bets\.idea\libraries\Maven__org_aspectj_aspectjrt_1_7_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\yozmo\Documents\GitHub\Bets\.idea\libraries\Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\yozmo\Documents\GitHub\Bets\.idea\libraries\Maven__org_hibernate_common_hibernate_commons_annotations_4_0_4_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\yozmo\Documents\GitHub\Bets\.idea\libraries\Maven__org_hibernate_hibernate_core_4_3_0_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\yozmo\Documents\GitHub\Bets\.idea\libraries\Maven__org_hibernate_hibernate_entitymanager_4_3_0_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\yozmo\Documents\GitHub\Bets\.idea\libraries\Maven__org_hibernate_hibernate_validator_5_0_3_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\yozmo\Documents\GitHub\Bets\.idea\libraries\Maven__org_hibernate_javax_persistence_hibernate_jpa_2_0_api_1_0_1_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\yozmo\Documents\GitHub\Bets\.idea\libraries\Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\yozmo\Documents\GitHub\Bets\.idea\libraries\Maven__org_javassist_javassist_3_18_1_GA.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\yozmo\Documents\GitHub\Bets\.idea\libraries\Maven__org_jboss_jandex_1_1_0_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\yozmo\Documents\GitHub\Bets\.idea\libraries\Maven__org_jboss_logging_jboss_logging_3_1_1_GA.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\yozmo\Documents\GitHub\Bets\.idea\libraries\Maven__org_jboss_logging_jboss_logging_annotations_1_2_0_Beta1.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\yozmo\Documents\GitHub\Bets\.idea\libraries\Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_0_0_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\yozmo\Documents\GitHub\Bets\.idea\libraries\Maven__org_slf4j_jcl_over_slf4j_1_7_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\yozmo\Documents\GitHub\Bets\.idea\libraries\Maven__org_slf4j_slf4j_api_1_7_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\yozmo\Documents\GitHub\Bets\.idea\libraries\Maven__org_springframework_data_spring_data_commons_1_6_3_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\yozmo\Documents\GitHub\Bets\.idea\libraries\Maven__org_springframework_data_spring_data_jpa_1_4_3_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\yozmo\Documents\GitHub\Bets\.idea\libraries\Maven__org_springframework_security_spring_security_core_3_2_0_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\yozmo\Documents\GitHub\Bets\.idea\libraries\Maven__org_springframework_spring_aop_4_0_1_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\yozmo\Documents\GitHub\Bets\.idea\libraries\Maven__org_springframework_spring_beans_4_0_1_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\yozmo\Documents\GitHub\Bets\.idea\libraries\Maven__org_springframework_spring_context_4_0_1_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\yozmo\Documents\GitHub\Bets\.idea\libraries\Maven__org_springframework_spring_core_4_0_1_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\yozmo\Documents\GitHub\Bets\.idea\libraries\Maven__org_springframework_spring_expression_4_0_1_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\yozmo\Documents\GitHub\Bets\.idea\libraries\Maven__org_springframework_spring_jdbc_4_0_1_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\yozmo\Documents\GitHub\Bets\.idea\libraries\Maven__org_springframework_spring_orm_4_0_1_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\yozmo\Documents\GitHub\Bets\.idea\libraries\Maven__org_springframework_spring_test_4_0_1_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\yozmo\Documents\GitHub\Bets\.idea\libraries\Maven__org_springframework_spring_tx_4_0_1_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\yozmo\Documents\GitHub\Bets\.idea\libraries\Maven__org_springframework_spring_web_4_0_1_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\yozmo\Documents\GitHub\Bets\.idea\libraries\Maven__org_springframework_spring_webmvc_4_0_1_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\yozmo\Documents\GitHub\Bets\.idea\libraries\Maven__xml_apis_xml_apis_1_0_b2.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\yozmo\Documents\GitHub\Bets\.idea\workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\yozmo\Documents\GitHub\Bets\Bets.iml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Bets.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -112,10 +110,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="85" column="30" selection-start="2735" selection-end="2735" vertical-scroll-proportion="0.0" vertical-offset="1222" max-vertical-offset="3604">
+            <state line="7" column="20" selection-start="370" selection-end="370" vertical-scroll-proportion="0.29238328" vertical-offset="0" max-vertical-offset="5831">
               <folding />
             </state>
           </provider>
@@ -124,18 +122,16 @@
       <file leaf-file-name="InfrastructureConfig.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ro/bets/config/InfrastructureConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="14" selection-start="1043" selection-end="1043" vertical-scroll-proportion="-16.32" vertical-offset="0" max-vertical-offset="1411">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="24" column="14" selection-start="1063" selection-end="1063" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="1462">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WebMvcConfig.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="WebMvcConfig.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ro/bets/config/WebMvcConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="13" selection-start="1008" selection-end="1008" vertical-scroll-proportion="0.33169532" vertical-offset="273" max-vertical-offset="1003">
+            <state line="24" column="13" selection-start="775" selection-end="775" vertical-scroll-proportion="-16.32" vertical-offset="0" max-vertical-offset="884">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -158,9 +154,9 @@
       <list>
         <option value="db-console:/8cae3dfc/03970d6f-8f66-4703-a96f-ee02982f8418/" />
         <option value="$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/3.2.0.RELEASE/spring-security-core-3.2.0.RELEASE.pom" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/ro/bets/config/InfrastructureConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/ro/bets/config/WebMvcConfig.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -205,8 +201,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -315,6 +309,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -526,12 +522,6 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
-      <option name="VM_PARAMETERS" value="" />
-      <option name="USER_CFG_CLASS" />
-      <option name="CONTEXT_PROVIDER" />
-      <method />
-    </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -549,6 +539,12 @@
       <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
+      <option name="VM_PARAMETERS" value="" />
+      <option name="USER_CFG_CLASS" />
+      <option name="CONTEXT_PROVIDER" />
       <method />
     </configuration>
     <list size="0" />
@@ -584,11 +580,12 @@
       <workItem from="1392760604563" duration="3187000" />
       <workItem from="1392833474780" duration="1213000" />
       <workItem from="1392923729799" duration="5927000" />
+      <workItem from="1404664010716" duration="120000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10346000" />
+    <option name="totallyTimeSpent" value="10466000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -597,7 +594,7 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32972136" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329429" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -609,7 +606,6 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972136" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972136" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972136" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -623,11 +619,12 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972136" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
-    <option name="RECENTLY_FILTERED_USER_GROUPS">
+    <option name="RECENTLY_FILTERED_USERS">
       <collection />
     </option>
   </component>
@@ -649,6 +646,29 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="85" column="30" selection-start="3514" selection-end="3514" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5831">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/bets/config/InfrastructureConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="14" selection-start="1063" selection-end="1063" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="1462">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/bets/config/WebMvcConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="13" selection-start="775" selection-end="775" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="884">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="18" selection-start="573" selection-end="573" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="850">
@@ -707,53 +727,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/8cae3dfc/03970d6f-8f66-4703-a96f-ee02982f8418/yozmo_db..example">
-      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="153" />
-      </provider>
-    </entry>
-    <entry file="dbDummy://db-console:/8cae3dfc/03970d6f-8f66-4703-a96f-ee02982f8418/">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="22" selection-start="22" selection-end="22" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="102" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="10438" />
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/3.2.0.RELEASE/spring-security-core-3.2.0.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="30" selection-start="1443" selection-end="1443" vertical-scroll-proportion="0.8401977" vertical-offset="136" max-vertical-offset="3859">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="30" selection-start="2735" selection-end="2735" vertical-scroll-proportion="0.0" vertical-offset="1222" max-vertical-offset="3604">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ro/bets/config/InfrastructureConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="14" selection-start="1043" selection-end="1043" vertical-scroll-proportion="-16.32" vertical-offset="0" max-vertical-offset="1411">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="24" column="14" selection-start="1063" selection-end="1063" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="1462">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ro/bets/config/WebMvcConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="13" selection-start="1008" selection-end="1008" vertical-scroll-proportion="0.33169532" vertical-offset="273" max-vertical-offset="1003">
+        <state line="24" column="13" selection-start="775" selection-end="775" vertical-scroll-proportion="-16.32" vertical-offset="0" max-vertical-offset="884">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="20" selection-start="370" selection-end="370" vertical-scroll-proportion="0.29238328" vertical-offset="0" max-vertical-offset="5831">
+          <folding />
         </state>
       </provider>
     </entry>
